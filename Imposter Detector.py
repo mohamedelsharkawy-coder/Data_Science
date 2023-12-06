@@ -8,7 +8,7 @@ def project(altered_image):
     import cv2
     import matplotlib.pyplot as plt
     
-    # create sift object --> for feature extraction (define keypoints and descriptors)
+    # create sift object --> for feature extraction and describtion (define keypoints and descriptors)
     # create flann object --> for matching algorithm 
     sift = cv2.SIFT_create() 
     flann = cv2.FlannBasedMatcher({"algorithm":0},{})
